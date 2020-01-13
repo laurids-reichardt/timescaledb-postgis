@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  timescaledb:
+    build: .
+    image: laureichardt-local/timescaledb:1.5.1-pg11-postgis-2.5.3
